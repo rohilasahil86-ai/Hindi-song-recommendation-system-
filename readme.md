@@ -4,7 +4,7 @@ A content-based Hindi song recommendation system that takes 5 input songs and re
 
 ## Live Demo
 
-[Try the Hindi Song Recommendation System](https://hindi-song-recommendation-system04.streamlit.app/)
+https://hindi-song-recommendation-system04.streamlit.app/
 
 ## Run Locally
 
