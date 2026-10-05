@@ -2,9 +2,15 @@
 
 A content-based Hindi song recommendation system that takes 5 input songs and recommends 10 similar songs.
 
+## Live Demo
+
+[Try the Hindi Song Recommendation System](https://hindi-song-recommendation-system04.streamlit.app/)
+
+## Run Locally
+
 ## Project Overview
 
-This project recommends songs based on song metadata such as singer, music director, lyricist, album/movie, genre, and mood.
+This project recommends songs based on metadata such as singer, music director, lyricist, album/movie, genre, and mood.
 
 ## Dataset
 
@@ -18,7 +24,7 @@ This project recommends songs based on song metadata such as singer, music direc
 3. TF-IDF Vectorization
 4. Cosine Similarity
 5. Similarity aggregation for 5 input songs
-6. Top 10 song recommendations
+6. Top 10 recommendations
 
 ## Technologies Used
 
@@ -30,9 +36,8 @@ This project recommends songs based on song metadata such as singer, music direc
 
 ## How It Works
 
-The user selects 5 songs. Their TF-IDF representations are compared with the available songs using cosine similarity. The similarity scores are averaged and the top 10 songs are recommended.
+The user selects 5 songs. Their metadata is converted into TF-IDF vectors and compared with other songs using Cosine Similarity. The similarity scores are averaged and the top 10 songs are recommended.
 
-## Run Locally
 
 Install dependencies:
 
